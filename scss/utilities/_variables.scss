@@ -1,0 +1,35 @@
+$color-primary: #58e1c1;
+$color-shade: #777;
+$white: #fff;
+
+$breakpoint: 768px;
+
+$button-lighten: 15%;
+
+
+//button map
+
+$button-colors: (
+    "default": #51ddfc,
+    "success": #63cc82,
+    "error": #e4757a,
+    "warning": #fd7856,
+    "info": #927bc1,
+);
+
+//grid map
+
+$grid-colors: (
+    "theme-2": #fd7856,
+    "theme-3": #deb2ee,
+    "theme-4": #7ee6fd,
+    "theme-5": #88d9a0,
+    "theme-6": #4da2bb,
+    "theme-7": #ec9fa3,
+    "theme-8": #fd9f85,
+    "theme-9": #e4757a,
+    "theme-10":  #63cc82,
+    "theme-12": #80e8d1,
+);
+
+

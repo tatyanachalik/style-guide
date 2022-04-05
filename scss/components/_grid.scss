@@ -1,0 +1,74 @@
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+
+.container {
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .theme.col-1 {
+    background-color: map-get($button-colors, "info");
+  }
+  
+  .theme.col-2 {
+    background-color: map-get($grid-colors, "theme-2");
+  }
+  
+  .theme.col-3 {
+    background-color: map-get($grid-colors, "theme-3");
+  }
+  
+  .theme.col-4 {
+    background-color: map-get($grid-colors, "theme-4");
+  }
+  
+  .theme.col-5 {
+    background-color: map-get($grid-colors, "theme-5");
+  }
+  
+  .theme.col-6 {
+    background-color: map-get($grid-colors, "theme-6");
+  }
+  
+  .theme.col-7 {
+    background-color: map-get($grid-colors, "theme-7");
+  }
+  
+  .theme.col-8 {
+    background-color: map-get($grid-colors, "theme-8");
+  }
+  
+  .theme.col-9 {
+    background-color: map-get($grid-colors, "theme-9");
+  }
+  
+  .theme.col-10 {
+    background-color: map-get($grid-colors, "theme-10");
+  }
+  
+  .theme.col-11 {
+    background-color: map-get($button-colors, "default");
+  }
+  
+  .theme.col-12 {
+    background-color: map-get($grid-colors, "theme-12");
+  }
+  
+  .card {
+    flex-basis: 100%;
+  }
