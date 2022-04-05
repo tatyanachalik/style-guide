@@ -4,7 +4,7 @@
 
 .nav {
     padding-left: 0;
-    flex-basis: 100%;
+    flex-basis: $max;
     display: flex;
     flex-direction: column;
     &-link {
@@ -12,7 +12,7 @@
       border-radius: 5px;
       padding: 10px 0;
       display: block;
-      width: 100%;
+      width: $max;
       transition: 
         background-color .2s ease-in-out, 
         color .2s ease-in-out;
